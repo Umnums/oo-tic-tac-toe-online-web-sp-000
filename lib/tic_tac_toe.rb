@@ -17,10 +17,6 @@ class TicTacToe
     puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   end
 
-
-
-
-
   def position_taken?(index)
     if @board[index].include?("X") || @board[index].include?("O")
       return true
